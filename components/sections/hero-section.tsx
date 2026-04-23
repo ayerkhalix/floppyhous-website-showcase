@@ -32,7 +32,7 @@ export function HeroSection() {
               alt="FloppyHous Logo"
               width={192}
               height={192}
-              className="select-none"
+              className="select-none bg-transparent"
               unoptimized
               priority
             />

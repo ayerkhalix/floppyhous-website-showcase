@@ -57,138 +57,144 @@ export const events: Event[] = [
   },
   {
     id: '2',
-    title: 'Corporate Gala 2024',
-    tagline: 'Elegance & Networking Excellence',
-    date: 'July 20, 2024',
+    title: 'Kalayaan Corporate Summer Ball',
+    tagline: 'Where business leaders celebrate in island style.',
+    date: 'July 20, 2025',
     time: '7:00 PM',
-    startsAt: '2024-07-20T19:00:00+08:00',
-    location: 'Island Paradise Resort, Puerto Princesa',
-    description: 'An elegant evening for corporate clients featuring live performances, premium catering, and networking opportunities. Perfect for celebrating corporate milestones and building lasting business connections in an upscale tropical setting.',
-    shortDescription: 'An elegant evening for corporate clients featuring live performances and premium catering.',
+    startsAt: '2025-07-20T19:00:00+08:00',
+    location: 'The Astoria Convention Hall, Puerto Princesa',
+    description: 'The Kalayaan Corporate Summer Ball brought together executives, partners, and innovators for a premium evening of celebration and strategic networking. The program featured curated live performances, executive recognition segments, immersive stage visuals, and a dining experience designed for high-level hospitality.',
+    shortDescription: 'A premium corporate gala night with live entertainment, executive recognition, and elevated networking.',
     image: '/images/event-2.jpg',
     images: ['/images/event-2.jpg', '/images/event-1.jpg'],
     capacity: 500,
-    tags: ['Corporate Event', 'Gala', 'Networking', 'Premium Experience'],
+    tags: ['Corporate Gala', 'Networking Night', 'Executive Event', 'Puerto Princesa'],
     highlights: [
-      '5-star catering service',
-      'Live jazz band',
-      'Exclusive networking areas',
-      'Premium bar service'
+      'Multi-course plated dinner',
+      'Executive recognition and awards segment',
+      'Live jazz and contemporary ensemble',
+      'Private lounge spaces for partner meetings'
     ],
     testimonials: [
       {
-        name: 'Roberto Martinez',
-        role: 'CEO, Tech Solutions Inc.',
-        quote: 'FloppyHous transformed our annual gala into an unforgettable experience. Highly recommended!'
+        name: 'Angela Dela Cruz',
+        role: 'Operations Director, Northbay Holdings',
+        quote: 'FloppyHous delivered a polished gala with flawless pacing, strong production value, and meaningful room for business conversations.'
       }
     ]
   },
   {
     id: '3',
-    title: 'Beach Music Fest',
-    tagline: 'Sun, Music & Sunset Magic',
-    date: 'August 10, 2024',
-    time: '4:00 PM',
-    startsAt: '2024-08-10T16:00:00+08:00',
-    location: 'White Beach, Palawan',
-    description: 'A beachfront celebration with DJ performances, live bands, and an unforgettable sunset experience. Feel the sand between your toes as world-class DJs spin tracks against the backdrop of Palawan\'s most stunning sunsets. This is music, nature, and celebration combined.',
-    shortDescription: 'A beachfront celebration with DJ performances and an unforgettable sunset.',
+    title: 'Rasa Shoreline Music and Arts Fest',
+    tagline: 'A full-day coastal festival of music, visuals, and local flavor.',
+    date: 'November 16, 2025',
+    time: '3:30 PM',
+    startsAt: '2025-11-16T15:30:00+08:00',
+    location: 'Rasa Beachfront, Palawan',
+    description: 'Rasa Shoreline Music and Arts Fest blended live performances, DJ sets, and interactive creative zones into one high-energy beachfront experience. Guests moved between performance stages, local food rows, and art installations while sunset and night lighting transformed the coast into a full festival environment.',
+    shortDescription: 'A beachfront music and arts festival with live acts, DJ sets, and sunset stage energy.',
     image: '/images/event-3.jpg',
     images: ['/images/event-3.jpg', '/images/event-1.jpg', '/images/event-4.jpg'],
-    artists: ['DJ Phoenix', 'The Waves Band', 'Luna Sunset DJs'],
+    artists: ['DJ Arkin', 'The Tideways', 'Sunkissed Collective', 'MC Nyx'],
     capacity: 1500,
-    tags: ['Beach Party', 'Music Festival', 'DJ Performance', 'Sunset Experience'],
+    tags: ['Music Festival', 'Beachfront Event', 'Arts Activation', 'Live DJs'],
     highlights: [
-      'International DJs',
-      'Live band performances',
-      'Beachfront lounge',
-      'Sunset prime time'
+      'Two-stage lineup from late afternoon to midnight',
+      'Live mural and projection art zone',
+      'Local food and drink village',
+      'Sunset-to-night visual production show'
     ],
     testimonials: [
       {
-        name: 'Sophie Johnson',
-        role: 'International DJ',
-        quote: 'Amazing venue, amazing crowd! FloppyHous really knows how to put on a show.'
+        name: 'Marco Silva',
+        role: 'Touring DJ',
+        quote: 'From artist handling to crowd flow, the execution felt world-class while still deeply local and authentic.'
       }
     ]
   },
   {
     id: '4',
-    title: 'Spring Music Festival 2024',
-    tagline: 'Emerging & Established Talent',
-    date: 'April 22, 2024',
-    time: '5:00 PM',
-    startsAt: '2024-04-22T17:00:00+08:00',
+    title: 'Founders Night Live: Puerto Princesa',
+    tagline: 'An anniversary concert celebrating local talent and city pride.',
+    date: 'March 22, 2025',
+    time: '6:00 PM',
+    startsAt: '2025-03-22T18:00:00+08:00',
     location: 'Palawan Convention Center',
-    description: 'A vibrant celebration of music and culture with performances from emerging and established artists. Spring arrived with incredible energy as we showcased the diversity of Philippine music talent.',
-    shortDescription: 'A vibrant celebration of music and culture.',
+    description: 'Founders Night Live celebrated Puerto Princesa\'s growth through a concert-style civic program featuring local performers, guest bands, and cinematic storytelling moments. The event balanced formal protocol with festival-level stagecraft, delivering a memorable city anniversary experience for families and visitors.',
+    shortDescription: 'A city anniversary concert featuring local artists, cultural storytelling, and immersive production.',
     image: '/images/event-4.jpg',
     images: ['/images/event-4.jpg', '/images/event-3.jpg'],
-    artists: ['Various Performers', 'Rising Stars', 'Veteran Artists'],
+    artists: ['Palawan Symphony Youth', 'Rizal Street Collective', 'Aira Velasco'],
     capacity: 1800,
-    tags: ['Music Festival', 'Cultural Celebration', 'Live Performance'],
+    tags: ['City Celebration', 'Live Concert', 'Cultural Showcase'],
+    highlights: [
+      'Anniversary tribute segment with multimedia storytelling',
+      'Cultural and contemporary performance sets',
+      'Family-friendly audience zones',
+      'Full concert lighting and sound program'
+    ],
     testimonials: [
       {
-        name: 'Michael Chen',
-        role: 'Music Journalist',
-        quote: 'FloppyHous\'s curation was impeccable. A true celebration of Philippine music.'
+        name: 'Lourdes Ramos',
+        role: 'Program Coordinator, City Events Office',
+        quote: 'The production honored the city with heart while still feeling modern, dynamic, and professionally staged.'
       }
     ]
   },
   {
     id: '5',
-    title: 'Creative Workshop Series',
-    tagline: 'Learn from Industry Experts',
-    date: 'May 5, 2024',
-    time: '2:00 PM',
-    startsAt: '2024-05-05T14:00:00+08:00',
+    title: 'FloppyHous Creator Camp',
+    tagline: 'Hands-on sessions for next-gen event and music creators.',
+    date: 'September 14, 2025',
+    time: '1:00 PM',
+    startsAt: '2025-09-14T13:00:00+08:00',
     location: 'Creative Hub, Puerto Princesa',
-    description: 'Interactive workshops featuring music production, event planning, and creative entrepreneurship. Led by industry experts, these hands-on sessions provide practical knowledge and networking opportunities for aspiring creative professionals.',
-    shortDescription: 'Interactive workshops on music production and creative entrepreneurship.',
+    description: 'FloppyHous Creator Camp gathered students, aspiring producers, and young entrepreneurs for practical training in event execution, music programming, and creative branding. Participants rotated through masterclasses, mock production exercises, and mentorship circles led by active industry professionals.',
+    shortDescription: 'A practical workshop day for aspiring event producers, creatives, and music entrepreneurs.',
     image: '/images/event-5.jpg',
     images: ['/images/event-5.jpg'],
     capacity: 100,
-    tags: ['Workshop', 'Education', 'Music Production', 'Entrepreneurship'],
+    tags: ['Workshop', 'Creator Education', 'Event Production', 'Mentorship'],
     highlights: [
-      'Expert-led sessions',
-      'Hands-on demonstrations',
-      'Networking lunch',
-      'Digital resources pack'
+      'Production planning and show-calling simulation',
+      'Music direction and program flow workshop',
+      'Mentor roundtables with local industry leaders',
+      'Resource toolkit for first-time organizers'
     ],
     testimonials: [
       {
-        name: 'Lisa Wong',
-        role: 'Music Producer',
-        quote: 'Incredibly educational. I learned so much from the expert instructors!'
+        name: 'Javi M.',
+        role: 'Participant',
+        quote: 'The sessions were practical, direct, and confidence-building. I left with a clear plan for my first independent event.'
       }
     ]
   },
   {
     id: '6',
-    title: 'Year-End Celebration',
-    tagline: 'Countdown to New Beginnings',
-    date: 'December 28, 2023',
+    title: 'Baywalk Countdown Festival 2025',
+    tagline: 'One city, one stage, one unforgettable countdown.',
+    date: 'December 31, 2025',
     time: '8:00 PM',
-    startsAt: '2023-12-28T20:00:00+08:00',
-    location: 'Waterfront Park, Palawan',
-    description: 'A spectacular year-end bash with fireworks, performances, and a countdown to remember. We celebrated an incredible year with spectacular fireworks, live performances, and the energy of a thousand people ready to embrace the future.',
-    shortDescription: 'A spectacular year-end bash with fireworks and performances.',
+    startsAt: '2025-12-31T20:00:00+08:00',
+    location: 'Puerto Princesa Baywalk',
+    description: 'Baywalk Countdown Festival 2025 capped off the year with live acts, synchronized midnight effects, and a massive community countdown by the waterfront. FloppyHous designed the crowd journey from pre-show energy to midnight finale with layered stage programming, safety zoning, and high-impact visual moments.',
+    shortDescription: 'A city-scale year-end countdown with fireworks, live acts, and waterfront festival energy.',
     image: '/images/event-6.jpg',
     images: ['/images/event-6.jpg', '/images/event-1.jpg', '/images/event-3.jpg'],
-    artists: ['DJ Masters', 'Live Orchestra', 'Featured Performers'],
+    artists: ['DJ Kaya', 'Baywalk Brass Collective', 'Neon Harbor Crew'],
     capacity: 2500,
-    tags: ['Celebration', 'Year-End', 'Fireworks', 'Live Performance'],
+    tags: ['Countdown', 'Year-End Festival', 'Fireworks', 'Community Event'],
     highlights: [
-      'Spectacular fireworks show',
-      'Live orchestra performance',
-      'Countdown celebration',
-      'Gourmet dining'
+      'Midnight fireworks and pyrotechnic finale',
+      'Live stage program from 8 PM to countdown',
+      'Family and VIP viewing sections',
+      'Integrated safety and crowd management plan'
     ],
     testimonials: [
       {
-        name: 'Carlos Rodriguez',
+        name: 'Patricia G.',
         role: 'Attendee',
-        quote: 'What an amazing way to end the year! FloppyHous made it truly special and memorable.'
+        quote: 'The entire night felt exciting and organized from start to finish. The midnight reveal was unforgettable.'
       }
     ]
   },
